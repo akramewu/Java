@@ -1,0 +1,22 @@
+package Java_Practice;
+
+public class Method {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+       Method obj = new Method();
+       obj.sum();
+	}
+	
+	//normal method which is called on the main method 
+	public void sum()
+	{
+		int a = 4;
+		int b = 5;
+		int c = a+b;
+		System.out.println("The sum of :" +c);
+		
+	}
+
+}
